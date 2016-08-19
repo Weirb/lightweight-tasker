@@ -1,0 +1,37 @@
+GtkWindow {
+    margin-left: 10px;
+}
+
+GtkTreeView {
+    background-color: black;
+    padding: 5px;
+
+}
+
+GtkTreeView column-header .button {
+    background-color: #333;
+    color: #FFF
+}
+
+/*GtkTreeView row:even {*/
+    /*background-color: #fff;*/
+/*}*/
+
+/*GtkTreeView row:odd {*/
+    /*background-color: #eee;*/
+/*}*/
+
+GtkTreeView row {
+    background-color: #000;
+    color: #FFF;
+}
+
+GtkTreeView row:hover {
+    background-color: #FFF;
+    color: #000
+}
+
+GtkTreeView row:selected {
+    background-color: #CFF;
+    color: #000;
+}
